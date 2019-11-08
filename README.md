@@ -1,7 +1,9 @@
 # Dell Latitude 7490 Hackintosh EFI
 
 ## Tested macOS Version
-Now running macOS Mojave 10.14.6
+10.14: macOS Mojave 10.14.6
+
+10.15: macOS Catalina 10.15.1
 
 ## System Configuration
 - Intel i5 8350U
@@ -23,7 +25,7 @@ Now running macOS Mojave 10.14.6
  - [x] USB 3.0
  - [x] Sleep From (Lid)
  - [x] WiFi (2.4 + 5GHz) & BT by using BCM94352z
- - [x] Handoff & Airdrop
+ - [x] Handoff, Airdrop & Sidecar (Sidecar for Catalina)
  - [x] Native hotkey support w/ Fn keys
  - [x] USB-C charging
 
