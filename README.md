@@ -83,9 +83,14 @@ Run the following command by terminal
 
 You can modify this in System Preference - Keyboard -Modifier Keys...
 Ctrl - Control
+
 Fn - Fn
+
 Win - Option
+
 Alt - Command
+
+
 
 ## Easter egg
 Try Ctrl+Alt+Power Btn!
