@@ -13,34 +13,54 @@
 
 ## What's working
  - [x] Audio w/ headphone jack
+
  - [x] CPU Speedstep
+
  - [x] iGPU acceleration
+
  - [x] Battery Management
+
  - [x] Backlight
+
  - [x] Ethernet
+
  - [x] HDMI
+
  - [x] Sleep & Wake
+
  - [x] Smart Touchpad w/ Gestures (using I2C)
+
  - [x] WebCam
+
  - [x] USB 3.0
+
  - [x] Sleep From (Lid)
+
  - [x] WiFi (2.4 + 5GHz) & BT by using BCM94352z
+
  - [x] Handoff, Airdrop & Sidecar (Sidecar for Catalina)
+
  - [x] Native hotkey support w/ Fn keys
+
  - [x] USB-C charging
 
+ - [x] USB-C DP-alt Mode
+
+ - [ ] USB-C Data transfer*
+
+   *Partially working, needs to plug a device in order that macOS could pick up USB-C controller, then it's plug-n-play and hot-plug&unpluggable in macOS. It may cause problems when lid closed or the system sleeps.
+
 ## What's not working(I have found)
-- - Trackpad Keys
-- - TrackPoint
-- - Fingerprint sensor
-- - WWAN card
-- - Smart card reader
+- Trackpad Keys
+- TrackPoint
+- Fingerprint sensor
+- WWAN card
+- Smart card reader
 
 ## What's not tested yet
-- - Audio over HDMI
-- - MicroSD card
-- - USB-C Data transfer/DP-alt Mode/etc.
-- - Thunderbolt
+- Audio over HDMI
+- MicroSD card
+- Thunderbolt
 
 
 ## Something you may want to apply
