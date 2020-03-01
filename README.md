@@ -3,7 +3,7 @@
 ## Tested macOS Version
 10.14: macOS Mojave 10.14.6
 
-10.15: macOS Catalina 10.15.1
+10.15: macOS Catalina 10.15.3
 
 ## System Configuration
 - Intel i5 8350U
@@ -45,6 +45,8 @@
  - [x] USB-C charging
 
  - [x] USB-C DP-alt Mode
+  
+ - [x] FileVault 2 support for Catalina (Mojave one should work, but not tested)
 
  - [ ] USB-C Data transfer*
 

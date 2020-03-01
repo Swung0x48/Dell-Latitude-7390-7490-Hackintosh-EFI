@@ -16,6 +16,15 @@ System Preferences - Trackpad - Tracking Speed
 #Enable HiDPI:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
 
+#Some Apps Recommend:
+iStat Menus - Monitor system status
+Scroll Reverser - Reverse your mouse scrolling
+Alfred - A more powerful Spotlight
+Magnet - A more powerful Split View
+CheatSheet - Quick shortcut viewer
+IINA - A powerful video player
+The Unarchiver - The very compressed file unarchiver
+KeyCastr - Show your keyboard operation on the screen
 
 #Key mapping
 //This key mapping respects Apple's default key mapping
