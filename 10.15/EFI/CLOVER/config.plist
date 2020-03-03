@@ -356,7 +356,7 @@
 				<key>Comment</key>
 				<string>Disable panic kext logging on Release kernel</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>AIoChMB0</data>
 				<key>MatchOS</key>
@@ -385,6 +385,18 @@
 				<data>ILniAAAADzA=</data>
 				<key>Replace</key>
 				<data>ILniAAAAkJA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable panic kext logging on 10.15.4 Release kernel</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>AIoChMB0</data>
+				<key>MatchOS</key>
+				<string>10.14.4,10.14.5</string>
+				<key>Replace</key>
+				<data>AIoChMDr</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -489,58 +501,58 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string></string>
+		<string>FVF0261004N0000JC</string>
 		<key>ROM</key>
-		<data>k8DMd8jr</data>
+		<data>tY0O/Ih9</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string></string>
+		<string>01/05/2020</string>
 		<key>BiosVendor</key>
-		<string></string>
+		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string></string>
+		<string>MBP154.88Z.F000.B00.2001052048</string>
 		<key>Board-ID</key>
-		<string></string>
+		<string>Mac-53FDB3D8DB8CA971</string>
 		<key>BoardManufacturer</key>
-		<string></string>
+		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string></string>
+		<string>FVF0261004N0000JC</string>
 		<key>BoardType</key>
-		<integer>0</integer>
+		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string></string>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string></string>
+		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
-		<string></string>
+		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string></string>
+		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string></string>
+		<string>1037.80.41.0.0</string>
 		<key>Family</key>
-		<string></string>
+		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string></string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
-		<string></string>
+		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
-		<string></string>
+		<string>Part Component</string>
 		<key>Manufacturer</key>
-		<string></string>
+		<string>Apple Inc.</string>
 		<key>Mobile</key>
-		<false/>
+		<true/>
 		<key>PlatformFeature</key>
-		<string></string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string></string>
+		<string>MacBookPro15,4</string>
 		<key>SerialNumber</key>
-		<string></string>
+		<string>FVFCXBYUL40Y</string>
 		<key>SmUUID</key>
-		<string></string>
+		<string>A9E25253-5884-4332-BB59-3E5582FC887D</string>
 		<key>Version</key>
-		<string></string>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
