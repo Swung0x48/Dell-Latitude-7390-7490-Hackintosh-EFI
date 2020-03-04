@@ -1,5 +1,7 @@
 # Dell Latitude 7490 Hackintosh EFI
 
+IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
+
 ## Tested macOS Version
 10.14: macOS Mojave 10.14.6
 
