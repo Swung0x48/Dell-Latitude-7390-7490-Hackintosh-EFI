@@ -14,7 +14,9 @@ IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
 - DW1560 (BCM94352z)
 
 ## What's working
- - [x] Audio w/ headphone jack
+ - [x] Audio 
+  
+ - [ ] & headphone jack (yeah it doesn't)
 
  - [x] CPU Speedstep
 
