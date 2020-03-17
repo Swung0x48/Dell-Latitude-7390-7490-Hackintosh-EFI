@@ -32,13 +32,13 @@ IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
 
  - [x] Sleep & Wake
 
- - [x] Smart Touchpad w/ Gestures (using I2C)
+ - [x] Smart Touchpad w/ Gestures (using I2C) *
 
  - [x] WebCam
 
  - [x] USB 3.0
 
- - [x] Sleep From (Lid)
+ - [x] Sleep (Lid & Fn + Insert)
 
  - [x] WiFi (2.4 + 5GHz) & BT by using BCM94352z
 
@@ -52,9 +52,11 @@ IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
   
  - [x] FileVault 2 support for Catalina (Mojave one should work, but not tested)
 
- - [ ] USB-C Data transfer*
+ - [ ] USB-C Data transfer (2)
+ 
+ (1) Physical buttons & TrackPoint doesn't work.
 
-   *Partially working, needs to plug a device before boot in order that macOS could pick up USB-C controller, then it's plug-n-play and hot-plug&unpluggable in macOS. It may cause problems when lid closed or the system sleeps.
+   (2) Partially working, needs to plug a device before boot in order that macOS could pick up USB-C controller, then it's plug-n-play and hot-plug&unpluggable in macOS. It may cause problems when lid closed or the system sleeps.
 
 ## What's not working(I have found)
 - Trackpad Keys
