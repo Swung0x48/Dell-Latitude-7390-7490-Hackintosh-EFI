@@ -6,6 +6,11 @@
 	<dict>
 		<key>DSDT</key>
 		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>FixHPET</key>
+				<true/>
+			</dict>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -62,7 +67,7 @@
 					<key>Comment</key>
 					<string>Change HECI to IMEI</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>SEVDSQ==</data>
 					<key>Replace</key>
@@ -72,7 +77,7 @@
 					<key>Comment</key>
 					<string>Change GFX0 to IGPU</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>R0ZYMA==</data>
 					<key>Replace</key>
@@ -212,6 +217,66 @@
 					<key>Replace</key>
 					<data>oAqRCv8L//8=</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BRT6 to XRT6 (Dell Fn Brightness)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>QlJUNgKgC5M=</data>
+					<key>Replace</key>
+					<data>WFJUNgKgC5M=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BTNV to XTNV(Dell Fn+Insert)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>QlROVgI=</data>
+					<key>Replace</key>
+					<data>WFROVgI=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_PTS to ZPTS(1,N) (Prepare to Sleep</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BUUwE=</data>
+					<key>Replace</key>
+					<data>WlBUUwE=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_WAK to ZWAK(1,N) (Wake)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1dBSwE=</data>
+					<key>Replace</key>
+					<data>WldBSwE=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_LID to XLID(LID)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0xJRAA=</data>
+					<key>Replace</key>
+					<data>WExJRAA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BTNV to XTNV(Dell Fn+Insert)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>QlROVgI=</data>
+					<key>Replace</key>
+					<data>WFROVgI=</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
@@ -233,7 +298,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>brcmfx-driver=2 dart=0 -lilubetaall darkwake=1</string>
+		<string>brcmfx-driver=2 dart=0 -lilubetaall darkwake=1 -alcid=11</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -248,11 +313,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<true/>
-			<key>Inject</key>
-			<integer>11</integer>
+			<false/>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -328,7 +391,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -349,6 +412,8 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleRTC</key>
+		<true/>
+		<key>DellSMBIOSPatch</key>
 		<true/>
 		<key>KernelToPatch</key>
 		<array>
