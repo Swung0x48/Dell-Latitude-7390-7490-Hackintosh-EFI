@@ -1,15 +1,9 @@
-<<<<<<< HEAD
 # Dell Latitude 7490 Hackintosh EFI - Catalina/OpenCore Branch
-=======
-# Dell Latitude 7490 Hackintosh EFI - Catalina Branch
->>>>>>> bfd5b82dd8f9cf783435de82bf30065439f0f116
 
 #### Latest update:
 
 ###### 2020/06/11 : 
-<<<<<<< HEAD
-* Transition to OpenCore!
-=======
+* Transition to OpenCore! (Thanks to @muttonhead411)
 OpenCore 0.5.8 with OpenCanopy & Boot Chime enabled
 Catalina 10.15.5 
 SMBIOS MacBookPro15,2
@@ -23,4 +17,3 @@ What Do Not Work Yet:
 - Fn Speciality Keys (not fully mapped for brightness yet. I believe one of the Kext is conflicting)
 
 Everything else works very well!
->>>>>>> bfd5b82dd8f9cf783435de82bf30065439f0f116
