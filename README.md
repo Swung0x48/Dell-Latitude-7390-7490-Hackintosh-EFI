@@ -4,9 +4,13 @@
 
 ###### 2020/06/11 : 
 * Transition to OpenCore! (Thanks to @muttonhead411)
+
 OpenCore 0.5.8 with OpenCanopy & Boot Chime enabled
+
 Catalina 10.15.5 
+
 SMBIOS MacBookPro15,2
+
 BIOS 1.14.0 (SecureBoot Off)
 
 What Do Not Work Yet: 
