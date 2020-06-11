@@ -58,6 +58,12 @@ IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
 
    (2) Partially working, needs to plug a device before boot in order that macOS could pick up USB-C controller, then it's plug-n-play and hot-plug&unpluggable in macOS. It may cause problems when lid closed or the system sleeps.
 
+## TODO:
+- Migrating to OpenCore
+- Fix headphone jack
+- Add SD card support
+  `https://github.com/cholonam/Sinetek-rtsx`
+
 ## What's not working(I have found)
 - Trackpad Keys
 - TrackPoint
