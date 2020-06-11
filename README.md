@@ -5,6 +5,8 @@
 ###### 2020/06/11 : 
 * Transition to OpenCore! (Thanks to @muttonhead411)
 
+Not yet polish though, stay tuned.
+
 OpenCore 0.5.8 with OpenCanopy & Boot Chime enabled
 
 Catalina 10.15.5 
