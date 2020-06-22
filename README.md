@@ -8,7 +8,7 @@
 * Fully SSDTified.
 * Sleep fixed.
 * MicroSD card reader working.
-* Boot Chime enabled & hidden boot picker(Smash Esc to show the boot picker)
+* Boot Chime enabled & hidden boot picker(Smash `Esc` to show the boot picker)
 * WIP: ApplePollHotkey
 
 ###### 2020/06/11 : 
