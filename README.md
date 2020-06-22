@@ -16,7 +16,7 @@ IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
 ## What's working
  - [x] Audio 
   
- - [ ] & headphone jack (yeah it doesn't)
+ - [x] & headphone jack (Tested in Catalina-OpenCore branch only)
 
  - [x] CPU Speedstep
 
@@ -42,6 +42,8 @@ IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
 
  - [x] WiFi (2.4 + 5GHz) & BT by using BCM94352z
 
+ - [x] MicroSD card reader 
+
  - [x] Handoff, Airdrop & Sidecar (Sidecar for Catalina)
 
  - [x] Native hotkey support w/ Fn keys
@@ -54,15 +56,9 @@ IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
 
  - [ ] USB-C Data transfer (2)
  
- (1) Physical buttons & TrackPoint doesn't work.
+   (1) Physical buttons & TrackPoint doesn't work.
 
    (2) Partially working, needs to plug a device before boot in order that macOS could pick up USB-C controller, then it's plug-n-play and hot-plug&unpluggable in macOS. It may cause problems when lid closed or the system sleeps.
-
-## TODO:
-- Migrating to OpenCore
-- Fix headphone jack
-- Add SD card support
-  `https://github.com/cholonam/Sinetek-rtsx`
 
 ## What's not working(I have found)
 - Trackpad Keys
