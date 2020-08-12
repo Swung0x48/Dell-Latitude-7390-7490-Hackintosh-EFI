@@ -1,6 +1,7 @@
 # Dell Latitude 7490 Hackintosh EFI
 
 **The owner of the repo has sold the laptop. The repo may stop updating.**
+
 IF YOU ARE NEW HERE, CHECK OUT OTHER BRANCHES FOR WHAT YOU WANT.
 
 ## Tested macOS Version
